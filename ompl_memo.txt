@@ -1,0 +1,5 @@
+////// OMPL Planner /////
+https://ros-planning.github.io/moveit_tutorials/doc/ompl_interface/ompl_interface_tutorial.html
+
+      //// Optimal Planning ////
+http://ompl.kavrakilab.org/optimalPlanning.html
