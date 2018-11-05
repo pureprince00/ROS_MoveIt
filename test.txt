@@ -2,18 +2,19 @@
 
 http://wiki.ros.org/industrial_trajectory_filters
 
-/// download package ///
-https://github.com/ros-industrial/industrial_core
+      /// download package ///
+      https://github.com/ros-industrial/industrial_core
 
 
-////// industrial_trajectory_filters package tutorial ////////
+       ////// industrial_trajectory_filters package tutorial ////////
+       http://wiki.ros.org/industrial_trajectory_filters/Tutorials
 
-http://wiki.ros.org/industrial_trajectory_filters/Tutorials
+
 
 //////// Using a planning adapter inside of MoveIt. ////////////
 http://wiki.ros.org/industrial_trajectory_filters/Tutorials/filters_inside_moveit
 
-/// example - uniform sample filter ///
+   /// example - uniform sample filter ///
 
    1 <launch>
    2 
