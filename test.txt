@@ -7,3 +7,33 @@ http://wiki.ros.org/industrial_trajectory_filters
 ////// industrial_trajectory_filters package tutorial ////////
 
 http://wiki.ros.org/industrial_trajectory_filters/Tutorials
+
+//////// Using a planning adapter inside of MoveIt. ////////////
+http://wiki.ros.org/industrial_trajectory_filters/Tutorials/filters_inside_moveit
+
+/// example - uniform sample filter ///
+
+   1 <launch>
+   2 
+   3   <!-- OMPL Plugin for MoveIt! -->
+   4   <arg name="planning_plugin" value="ompl_interface/OMPLPlanner" />
+   5 
+   6   <!-- The request adapters (plugins) used when planning with OMPL. 
+   7        ORDER MATTERS -->
+   8   <arg name="planning_adapters" value="industrial_trajectory_filters/UniformSampleFilter
+   9 default_planner_request_adapters/AddTimeParameterization
+  10                                        default_planner_request_adapters/FixWorkspaceBounds
+  11                                        default_planner_request_adapters/FixStartStateBounds
+  12                                        default_planner_request_adapters/FixStartStateCollision
+  13                                        default_planner_request_adapters/FixStartStatePathConstraints" />
+  14 
+  15   <arg name="start_state_max_bounds_error" value="0.1" />
+  16 
+  17   <param name="planning_plugin" value="$(arg planning_plugin)" />
+  18   <param name="request_adapters" value="$(arg planning_adapters)" />
+  19   <param name="start_state_max_bounds_error" value="$(arg start_state_max_bounds_error)" />
+  20   <param name="sample_duration" value="0.2"/>
+  21 
+  22   <rosparam command="load" file="$(find final_config)/config/ompl_planning.yaml"/>
+  23 
+  24 </launch>
