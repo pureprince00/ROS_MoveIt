@@ -1,1 +1,9 @@
-thkwshjerkwherkh
+////// industrial_trajectory_filters package ////////
+
+http://wiki.ros.org/industrial_trajectory_filters
+
+
+
+////// industrial_trajectory_filters package tutorial ////////
+
+http://wiki.ros.org/industrial_trajectory_filters/Tutorials
