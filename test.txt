@@ -2,6 +2,8 @@
 
 http://wiki.ros.org/industrial_trajectory_filters
 
+/// download package ///
+https://github.com/ros-industrial/industrial_core
 
 
 ////// industrial_trajectory_filters package tutorial ////////
