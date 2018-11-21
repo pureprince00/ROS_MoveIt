@@ -2,7 +2,9 @@
 
 샘플링 타임(dt) 바꾸기
 
-test_ws/src/final_config/launch/ompl_planning_pipeline.xml
+우선, industrial_core 패키지를 빌드해야함!!!!!! (이 패키지 없으면 적용이 안 됨)
+
+그리고 , test_ws/src/final_config/launch/ompl_planning_pipeline.xml
 
 이 파일에서 sample time duration 값 원하는 대로 변경해주면 됨
 
