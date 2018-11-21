@@ -20,7 +20,7 @@ cd ..
 
 catkin build
 
-source ~/ws_moveit/devel/setup.bash
+source ~/test_ws/devel/setup.bash
 
 (source ~/.bashrc 이 코드로도 가능함. 왜냐믄  echo 'source ~/test_ws/devel/setup.bash' >> ~/.bashrc 코드를 이전에 적용시켜놔서)
 
