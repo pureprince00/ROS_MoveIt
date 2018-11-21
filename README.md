@@ -26,8 +26,29 @@ source ~/test_ws/devel/setup.bash
 
 
 
+파이참 실행 코드
 
-작동 순서.
+cd ~/pycharm-2018.1.4/bin
+
+./pycharm.sh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Single arm manipulator 실험 작동 순서.
 1. 가제보 실행
 roslaunch final_gazebo robotic_arm_bringup_gazebo.launch
 
